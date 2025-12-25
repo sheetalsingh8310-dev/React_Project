@@ -1,0 +1,47 @@
+.EmailCSS{
+
+margin-top: 20px;
+margin-bottom: 40px;
+  width: 40%;
+  height: 60px;
+  border: 2px solid black;
+
+}
+.ButtonCSS{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+Button{
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+
+ 
+}
+
+.InputCSS input{
+  padding: 10px 20px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  width: 35%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.InputCSS textarea{
+   padding: 10px 20px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  width: 35%;
+  font-size: 25px;
+
+}
+
+img{
+  width: 40%;
+  height: 450px;
+  margin-left: 590px;
+  margin-top: -408px;
+}

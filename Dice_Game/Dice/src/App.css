@@ -1,0 +1,129 @@
+/* ===========================
+   NAV / TOP SECTION
+=========================== */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  border-radius: 10px;
+  background: #fff;
+  margin: 20px auto;
+  width: 80%;
+
+}
+
+.nav h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav h {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Number Selection Buttons */
+.box {
+  width: 45px;
+  height: 45px;
+  margin: 0 5px;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 6px;
+    color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav button:hover {
+  background-color: black;
+  color: white;
+}
+
+.dice-section h1{
+  margin-left: 67%;
+  margin-top: -105x;
+  font-size: 80px;
+  font-weight: 900;
+  text-shadow: #555;
+}
+
+/* ===========================
+   DICE SECTION
+=========================== */
+.dice-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.dice-section img {
+  width: 440px;
+  margin-left: 5%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.dice-section img:hover {
+  scale: 1.05;
+}
+
+/* Buttons under dice */
+.dice-section button {
+  padding: 10px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color:black;
+}
+
+/* Reset score button */
+.dice-section button:first-of-type {
+  background: white;
+  border: 2px solid black;
+}
+
+/* Show results button */
+.dice-section button:last-of-type {
+  background: black;
+  color: white;
+}
+
+.number-selector {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.Dice img{
+
+  width: 20%;
+}
+
+.rules{
+  width: 50%;
+  height: 50%;
+  background-color: lightpink;
+  color: black;
+  margin-left: 30%;
+  border-radius: 8px;
+ 
+}
+
+.rules p{
+  font-size: 20px;
+  text-align:center;
+  
+}

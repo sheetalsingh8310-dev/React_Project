@@ -1,0 +1,15 @@
+
+.btn {
+ justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20%;
+      margin-bottom: 80%;
+}
+
+.Btn {
+    width: 30%;
+      height: 27px;
+      gap: 20%;
+      margin: 3px;
+}

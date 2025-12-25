@@ -1,0 +1,24 @@
+.navStyleCss {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 16px;
+
+}
+
+.linkStyle ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.linkStyle a {
+  color:black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.linkStyle a:hover {
+  color: #ffc107;
+}
+
